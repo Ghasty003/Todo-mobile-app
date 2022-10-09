@@ -10,7 +10,7 @@ import {
 import TaskPreview from "./TaskPreview";
 
 function AddTasks({ addTask }) {
-  const [userText, setUserText] = useState("jjh");
+  const [userText, setUserText] = useState("");
 
   const handleChangeText = (newVal) => {
     setUserText(newVal);
